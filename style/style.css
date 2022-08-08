@@ -264,12 +264,29 @@ header {
     padding-top: 35px;
   }
   
+  .section-4-1{
+    flex-direction: column!important;
+    width: 100%!important;
+  }
 
+  .contenedor-imagenes-texto-section-4{
+    flex-direction: column!important;
+    align-items: center;
+ 
+  }
 
+  .cards-section-4{
+    width: 100%!important;
+  }
 
+  .contenedor-imagenes-multimedia{
+    flex-direction: column!important;
+    align-items: center;
+  }
 
-
-
+  .contenedor-imagenes-section-5{
+    width: 100%!important;
+  }
 
 
 }
