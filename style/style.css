@@ -203,6 +203,11 @@ header {
     height: 600px;
     text-align: center;
   }
+  .img-section-4,
+  .img-section-5 {
+    width: 100%;
+   
+}
 
   header {
     background-color: #213b5a;
