@@ -291,6 +291,7 @@ body {
 /* Style the navbar */
 #navbar {
   overflow: hidden;
+  z-index: 99;
 
 }
 
