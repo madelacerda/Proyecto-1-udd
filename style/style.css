@@ -280,4 +280,8 @@ header {
   .contenedor-imagenes-section-5 {
     width: 100% !important;
   }
+  .titulo-section-2 {
+    font-size: 45px;
+    margin: 0;
+}
 }
