@@ -193,7 +193,7 @@ header {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 837px) {
   .section-1 {
     background-position: 50%;
     background-size: cover;
