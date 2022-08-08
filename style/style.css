@@ -147,3 +147,129 @@ header {
   text-align: center;
   width: 50%;
 }
+
+.img-section-5{
+    width: 50%;
+    -webkit-box-shadow: 10px 10px 5px rgb(173 173 173);
+    box-shadow: 10px 10px 5px #1b1515;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 10px;
+    z-index: 1;
+
+
+}
+
+.img-section-5-1{
+    width: 70%;
+    -webkit-box-shadow: 10px 10px 5px rgb(173 173 173);
+    box-shadow: 10px 10px 5px #1b1515;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+.img-section-5:hover{
+    filter: brightness(1.25);
+}
+
+.section-5{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/img/repeating_map_northrend_gray.webp);
+    padding: 5rem;
+    align-items: center;
+}
+
+.section-6{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/img/tuskar_desktop.webp);
+    padding: 5rem;
+    align-items: center;
+}
+
+.img-titulo-principal{
+  width: 450px; 
+  height: 280px
+}
+
+.titulo-azul{
+  color: #88c9fb; font-size: 20px; font-weight: 500;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .section-1 {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/keyart_mobile.webp);
+    justify-content: center;
+    height: 600px;
+    text-align: center;
+  }
+
+  header {
+    background-color: #213b5a;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .texto-header {
+    padding: 0;
+  }
+
+  .img-titulo-principal{
+    width: 360px; 
+    height: 210px;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/img/bg-container-2.webp);
+    padding: 5rem;
+  }
+
+  .section-2-1{
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  .img-section-2{
+    width: 100%;
+  }
+
+  .section-2-2{
+    width: 100%;
+  }
+
+
+  .section-3 {
+    background-image: url(/assets/img/arthas_2_mobile.webp);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: repeat-y;
+  
+  }
+
+  .text-container-section-3{
+    padding-top: 35px;
+  }
+  
+
+
+
+
+
+
+
+
+}
